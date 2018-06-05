@@ -1,0 +1,25 @@
+include component/header.pug
+
+doctype html
+html
+  +header({
+    title: title
+  })
+  body
+    #app
+      #head
+        +b.head-container
+          +b.head-logo head-logo
+          +b.head-nav head-nav
+          +b.head-service head-service
+      #master
+        +b.master-header master-header
+        +b.master-container
+          +b.master-service master-service
+          +b.master-main master-main
+          +b.master-aside master-aside
+          +b.master-blank master-blank
+      #footer
+        +b.footer-container footer-container
+    
+    script(src="js/main.js")

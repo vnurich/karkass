@@ -1,0 +1,28 @@
+{
+  "name": "dev-env-pug-sass",
+  "version": "1.0.0",
+  "description": "Simple pug-sass boilerplate",
+  "author": "Vasya Nikolaev <vnurich@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vnurich/markup-pug-sass.git"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "fancy-log": "^1.3.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-data": "^1.3.1",
+    "gulp-pug": "^3.3.0",
+    "gulp-rollup": "^2.16.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-wait": "0.0.2"
+  }
+}

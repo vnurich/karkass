@@ -1,0 +1,26 @@
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+$head-logo-width: 100px;
+$head-logo-height: 40px;
+.head-logo {
+  width: $head-logo-width;
+  height: $head-logo-height;
+  background-color: navajowhite;
+}
+
+.head-nav {
+  flex: 1;
+  height: $head-logo-height;
+  background-color: darkcyan;
+}
+
+.head-service {
+  width: auto;
+  height: $head-logo-height;
+  background-color: darkolivegreen;
+}
