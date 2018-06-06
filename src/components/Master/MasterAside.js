@@ -1,9 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const StyledMasterAside = styled.div`
+  width: 300px;
+`;
 
 const MasterAside = (props) => (
-  <React.Fragment>
+  <StyledMasterAside>
     { props.children }
-  </React.Fragment>
+  </StyledMasterAside>
 );
 
 export default MasterAside;

@@ -1,14 +1,13 @@
 import React from 'react';
 
 import HeadContainer from './HeadContainer';
-import HeadLogo from './HeadLogo';
 import HeadNav from './HeadNav';
-import HeadService from './HeadNav';
+import HeadService from './HeadService';
 
 const Head = (props) => (
   <div id="head">
     <HeadContainer>
-      <HeadLogo>HeadLogo</HeadLogo>
+      <HeadService>HeadService</HeadService>
       <HeadNav>HeadNav</HeadNav>
       <HeadService>HeadService</HeadService>
     </HeadContainer>

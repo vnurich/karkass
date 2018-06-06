@@ -1,9 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const StyledMasterService = styled.div`
+  width: auto;
+`;
 
 const MasterService = (props) => (
-  <React.Fragment>
+  <StyledMasterService>
     { props.children }
-  </React.Fragment>
+  </StyledMasterService>
 );
 
 export default MasterService;

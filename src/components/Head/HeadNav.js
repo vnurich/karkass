@@ -1,9 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const StyledHeadNav = styled.div`
+  flex: 1;
+`;
 
 const HeadNav = (props) => (
-  <React.Fragment>
+  <StyledHeadNav>
     { props.children }
-  </React.Fragment>
+  </StyledHeadNav>
 );
 
 export default HeadNav;

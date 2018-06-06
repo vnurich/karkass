@@ -1,9 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const StyledMasterBlank = styled.div`
+  width: auto;
+`;
 
 const MasterBlank = (props) => (
-  <React.Fragment>
+  <StyledMasterBlank>
     { props.children }
-  </React.Fragment>
+  </StyledMasterBlank>
 );
 
 export default MasterBlank;

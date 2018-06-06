@@ -1,9 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const StyledHeadService = styled.div`
+  width: auto;
+`;
 
 const HeadService = (props) => (
-  <React.Fragment>
+  <StyledHeadService>
     { props.children }
-  </React.Fragment>
+  </StyledHeadService>
 );
 
 export default HeadService;

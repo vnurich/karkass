@@ -1,9 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const StyledMasterMain = styled.div`
+  flex: 1;
+`;
 
 const MasterMain = (props) => (
-  <React.Fragment>
+  <StyledMasterMain>
     { props.children }
-  </React.Fragment>
+  </StyledMasterMain>
 );
 
 export default MasterMain;
